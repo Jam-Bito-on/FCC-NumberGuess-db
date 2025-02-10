@@ -1,4 +1,5 @@
 #!/bin/bash
+# This script is a number guessing game
 
 PSQL="psql --username=freecodecamp --dbname=number_guess -t --no-align -c"
 
