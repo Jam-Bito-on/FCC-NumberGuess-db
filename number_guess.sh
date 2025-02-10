@@ -3,7 +3,7 @@
 # User login system for tracking game history
 # If they are new, insert them into the database
 # Format echo statements for better readability
-
+# Update database with the number of games played
 PSQL="psql --username=freecodecamp --dbname=number_guess -t --no-align -c"
 
 echo "Enter your username:"
