@@ -1,5 +1,6 @@
 #!/bin/bash
 # This script is a number guessing game
+# User login system for tracking game history
 
 PSQL="psql --username=freecodecamp --dbname=number_guess -t --no-align -c"
 
