@@ -1,6 +1,7 @@
 #!/bin/bash
 # This script is a number guessing game
 # User login system for tracking game history
+# If they are new, insert them into the database
 
 PSQL="psql --username=freecodecamp --dbname=number_guess -t --no-align -c"
 
